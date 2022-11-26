@@ -32,16 +32,16 @@
 			<url>http://13.234.217.238:8081/artifactory/libs-release-local</url>
 		</repository>
 		<snapshotRepository>
-			<id>snapshot</id>
-			<name>snapshots</name>
-			<url>http://13.234.217.238:8081/artifactory/libs-snapshot-local</url>
+			<id>nexus</id>
+			<name>nexus</name>
+			<url>http://34.204.5.155:8081/repository/addrepo/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
 	<scm>
-		<connection>scm:git:git@github.com:keshavkummari/javacode.git</connection>
-		<developerConnection>scm:git:git@github.com:keshavkummari/javacode.git</developerConnection>
-		<url>git@github.com:keshavkummari/javacode.git</url>
+		<connection>scm:git:git@github.com:teminelkan/java_er_code.git</connection>
+		<developerConnection>scm:git:git@github.com:teminelkan/java_er_code.git</developerConnection>
+		<url>git@github.com:teminelkan/java_er_code.git</url>
 		<tag>HEAD</tag>
 	</scm>
 
